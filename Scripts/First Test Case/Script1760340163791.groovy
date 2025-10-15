@@ -17,7 +17,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('https://www.unileverfoodsolutions.com.vn/vi.html')
+WebUI.openBrowser('')
+WebUI.setViewPortSize(1366, 768)
+WebUI.navigateToUrl('https://www.unileverfoodsolutions.com.vn/vi.html')
+
+//WebUI.openBrowser('https://www.unileverfoodsolutions.com.vn/vi.html')
 
 WebUI.click(findTestObject('Google Page/searchBox'))
 
